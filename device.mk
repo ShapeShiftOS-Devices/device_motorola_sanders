@@ -530,6 +530,13 @@ PRODUCT_PACKAGES += \
     charger_res_images \
     product_charger_res_images
 
+# Dialer Framework
+PRODUCT_COPY_FILES += \
+    $(LOCAL_PATH)/Dialer/com.google.android.dialer.support.jar:$(TARGET_COPY_OUT_SYSTEM)/framework/com.google.android.dialer.support.jar \
+    $(LOCAL_PATH)/Dialer/google_exclusives_enable.xml:$(TARGET_COPY_OUT_SYSTEM)/sysconfig/google_exclusives_enable.xml \
+    $(LOCAL_PATH)/Dialer/dialer_experience.xml:$(TARGET_COPY_OUT_SYSTEM)/sysconfig/dialer_experience.xml \
+    $(LOCAL_PATH)/Dialer/com.google.android.dialer.support.xml:$(TARGET_COPY_OUT_SYSTEM)/etc/permissions/com.google.android.dialer.support.xml
+
 PRODUCT_BUILD_PROP_OVERRIDES += BUILD_UTC_DATE=0
 
 PRODUCT_GMS_CLIENTID_BASE := android-motorola
