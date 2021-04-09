@@ -14,7 +14,7 @@
 # limitations under the License.
 
 PRODUCT_MAKEFILES := \
-	$(LOCAL_DIR)/octavi_sanders.mk
+	$(LOCAL_DIR)/ssos_sanders.mk
 
 COMMON_LUNCH_CHOICES := \
-	octavi_sanders-userdebug
+	ssos_sanders-userdebug
