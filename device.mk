@@ -182,10 +182,6 @@ PRODUCT_PACKAGES += \
     init.qti.fm.sh \
     qcom.fmradio
 
-# Pocket Mode
-PRODUCT_PACKAGES += \
-    MotoPocketMode
-
 # Fwk-detect
 PRODUCT_PACKAGES += \
     libqti_vndfwk_detect.vendor
