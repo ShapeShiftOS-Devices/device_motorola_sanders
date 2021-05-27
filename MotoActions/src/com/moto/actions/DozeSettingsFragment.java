@@ -20,7 +20,7 @@ import android.os.Bundle;
 import androidx.preference.PreferenceFragment;
 import android.provider.Settings;
 import androidx.preference.Preference;
-import androidx.preference.SwitchPreference;
+import com.ssos.support.preferences.SwitchPreference;
 import android.view.MenuItem;
 import android.view.LayoutInflater;
 import android.view.View;

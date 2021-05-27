@@ -24,7 +24,7 @@ import androidx.preference.Preference.OnPreferenceChangeListener;
 import androidx.preference.PreferenceActivity;
 import androidx.preference.PreferenceManager;
 import androidx.preference.ListPreference;
-import androidx.preference.SwitchPreference;
+import com.ssos.support.preferences.SwitchPreference;
 import android.view.MenuItem;
 import android.widget.ImageView;
 import android.widget.SeekBar;

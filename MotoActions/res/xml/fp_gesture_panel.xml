@@ -15,7 +15,7 @@
 <PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android"
         xmlns:settings="http://schemas.android.com/apk/res/com.android.settings">
 
-    <SwitchPreference
+    <com.ssos.support.preferences.SwitchPreference
         android:key="fp_home_scr_off"
         android:enabled="false"
         android:title="@string/fingerprint_gestures_screenoff_title"
@@ -26,7 +26,7 @@
         android:key="fp_keys_scr_on"
         android:title="@string/fingerprint_actions_screenon" >
 
-        <SwitchPreference
+        <com.ssos.support.preferences.SwitchPreference
             android:key="fp_haptic"
             android:defaultValue="0"
             android:title="@string/haptic_feedback"
@@ -89,7 +89,7 @@
         android:title="@string/fingerprint_actions_screenoff"
         android:enabled="false" >
 
-        <SwitchPreference
+        <com.ssos.support.preferences.SwitchPreference
             android:key="fp_haptic_scr_off"
             android:dependency="fp_home_scr_off"
             android:defaultValue="0"

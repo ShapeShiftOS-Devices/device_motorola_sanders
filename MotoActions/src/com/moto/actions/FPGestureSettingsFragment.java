@@ -22,7 +22,7 @@ import android.content.Context;
 import android.content.SharedPreferences.Editor;
 import android.preference.PreferenceManager;
 import androidx.preference.PreferenceCategory;
-import androidx.preference.SwitchPreference;
+import com.ssos.support.preferences.SwitchPreference;
 import android.hardware.fingerprint.FingerprintManager;
 import androidx.preference.PreferenceFragment;
 import android.view.MenuItem;
