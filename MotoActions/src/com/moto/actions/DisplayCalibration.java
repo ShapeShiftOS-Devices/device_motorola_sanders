@@ -19,12 +19,12 @@ package com.moto.actions;
 
 import android.content.Context;
 import android.content.SharedPreferences;
-import android.preference.Preference;
-import android.preference.Preference.OnPreferenceChangeListener;
-import android.preference.PreferenceActivity;
-import android.preference.PreferenceManager;
-import android.preference.ListPreference;
-import android.preference.SwitchPreference;
+import androidx.preference.Preference;
+import androidx.preference.Preference.OnPreferenceChangeListener;
+import androidx.preference.PreferenceActivity;
+import androidx.preference.PreferenceManager;
+import androidx.preference.ListPreference;
+import androidx.preference.SwitchPreference;
 import android.view.MenuItem;
 import android.widget.ImageView;
 import android.widget.SeekBar;
